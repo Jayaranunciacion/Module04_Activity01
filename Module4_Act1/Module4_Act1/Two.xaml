@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module4_Act1.Two">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Red">
+                <Label Text ="Jay-ar Anunciacon" HorizontalTextAlignment ="Center" TextColor="Red" FontSize="40">
+                    <Label.GestureRecognizers>
+                        <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_Drag"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Frame>
+
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+            <Frame BackgroundColor="White">
+                <Label Text ="Jhon Llyod Garcia" HorizontalTextAlignment ="Center" TextColor="Red" FontSize="40">
+                    <Label.GestureRecognizers>
+                        <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_Drag"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Frame>
+
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+            <Frame BackgroundColor="Fuchsia">
+                <Label Text ="Llyod Jay Garcia" HorizontalTextAlignment ="Center" TextColor="Red" FontSize="40">
+                    <Label.GestureRecognizers>
+                        <DragGestureRecognizer CanDrag="True" DragStarting="DragGestureRecognizer_Drag"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </Frame>
+
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <DropGestureRecognizer AllowDrop="True" Drop="DropGestureRecognizer_Drop"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
